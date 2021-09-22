@@ -1,13 +1,32 @@
-# Diabetes_detection_HighAvaiblityDeploymnet
-## I've created a Docker Image that contains all the basic requirementes and dependecies to train a deep learinng model inside a container.<br>
-![image](https://user-images.githubusercontent.com/56602504/115672262-04104200-a369-11eb-8443-2a5b0d5be5d5.png)
-## I've used Kubernets deployment resource to deploy our web-app on the top of AWS.
-![image](https://user-images.githubusercontent.com/56602504/115672433-2efa9600-a369-11eb-8f5f-677503f5afd0.png)
-## Web-app that takes the input from the client and predicit wheter the person is diabetic or not.
+**Deep Learning Model with Ease to Access**
 
-![image](https://user-images.githubusercontent.com/56602504/115672570-50f41880-a369-11eb-800f-0bb7b0bc446a.png)
-![image](https://user-images.githubusercontent.com/56602504/115672634-5fdacb00-a369-11eb-9798-3cc38e2a7fc6.png)
+Complete article: https://www.linkedin.com/pulse/deep-learning-model-ease-access-arindam-gupta/?trackingId=9Fx6Ta2yW2O7EeOFA5NH6A%3D%3D
 
-## Click on the below image see the process
-[![deployment ](http://img.youtube.com/vi/dHawLYK4kOY/0.jpg)](http://www.youtube.com/watch?v=dHawLYK4kOY "HA DL Deployment ")
+**Introduction**
 
+In this mini-project the key-focus is how we can predict the outcome from the given trained dataset by giving the input through simple Web-UI.
+
+
+Using the Code
+
+For this project I have used a basic dataset from Kaggle ("https://www.kaggle.com/uciml/pima-indians-diabetes-database"). The dataset is about the diabetes patients and predicts if the patient can have diabetes or not. For creating the model Deep Learning algorithm has been used.
+
+
+Since the dataset is trained and and we have saved the model, we will create a normal WebUI having a form which collects all the information/column names from the user and predicts the output. To create a webapp we'll be using Flask Framework with python.
+
+
+
+
+The complete web-app I've created on a container technology called as DOCKER. Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and deploy it as one package.
+
+The libraries / software that are used:
+
+Tensorflow 2.4>
+keras
+Flask
+Docker
+render_template
+Public Cloud like AWS
+The complete Docker image I've uploaded on Docker hub. The link to the image is: "https://hub.docker.com/repository/docker/arindam7013/flask_project_1"
+
+For Higher availability of the project I will be deploying this whole setup on a Public Cloud like AWS/AZURE/GCP so that anyone can access it around the world.
